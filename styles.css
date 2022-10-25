@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("building.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right, .left{
+    display: flex;
+    margin: 10px;
+}
+
+.right h3{
+    margin: 10px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+h2{
+    margin-left: 10px;
+    width: 300px;
+}
